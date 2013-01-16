@@ -6,16 +6,19 @@
 
 命令行打开程序，并跟本地路径（文件服务器的根目录），形如 
 
-**fileServer.exe d:\movies**
+**fileServer.exe  d:\movies**
 
 然后，用浏览器访问： 
 
 **程序所在机器的ip:8080**
 
+
 file Server
 ==========
 [Usage]
 
-fileServer.go d:\movies
+run the following command line:
 
-Then,visit server_ip:8080 by browser.
+**fileServer.exe  d:\movies**
+
+Then,visit **server_ip:8080** by browser.
